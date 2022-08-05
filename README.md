@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://telegra.ph/file/780bc71b9c7a90cb84e58.jpg" alt="Hyzer-MD" width="250"/>
+<img src="https://telegra.ph/Legend-08-05-12" alt="Hyzer-MD" width="250"/>
 
 
 </p>
