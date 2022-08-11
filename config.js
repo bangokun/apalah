@@ -1,6 +1,45 @@
-global.owner = ['6285738639969'] // Put your number here
-global.mods = [] // Want some help?
-global.prems = ['6285738639969'] // Premium user has unlimited limit
+//=============『 Utama 』================== //
+global.owner = ['6285738639969','6287789210430'] 
+global.mods = [] 
+global.prems = [] 
+
+//=============『 Info Owner 』============== //
+global.nameowner = 'Chonix'
+global.numberowner = '6285738639969'
+global.instagram = 'https://instagram.com/ktgakuma?igshid=YmMyMTA2M2Y='
+global.github = 'https://github.com/bangokun'
+global.dana = '085738639969'
+global.pulsa = '085738639969'
+global.gopay = '.'
+
+//=============『 Info Bot 』=================//
+global.namebot = 'Chonix'
+global.gc = 'https://chat.whatsapp.com/JZcR7E5hOlE7dYbPiQhUtU'
+global.web = 'https://github.com/Bangokun' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
+global.price1 = '1 bulan = 10.000\n2 Minggu 7.000\n1 Minggu 5.000'
+
+//=======『 Tampilan Dan Lainnya 』============//
+global.fotonya1 = 'https://telegra.ph/file/e4a2f4339da8a32ad20a1.jpg' //ganti jadi foto bot mu
+global.fotonya2 = 'https://telegra.ph/file/8c471d45b6cedad43cf84.jpg' //ini juga ganti 
+global.lolkey = 'Papah-Chan' //biar mudah ngegantinya semisal apikeynya expired:v
+global.zenzkey = 'BagasPrdn' //ganti jadi apikey lu kalau expired
+global.wm = 'ꜱʜɪʀᴏ ɪᴋᴀꜱᴀᴋɪ ʙᴏᴛ'
+global.watermark = wm
+global.wm2 = '                     「 Chonix⁩ 」'
+global.wm3 = 'Chonix'
+global.htki = '––––––『' 
+global.htka = '』––––––'
+global.media = 'https://telegra.ph/file/72168c6f1aaa90315c369.jpg'
+global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=smurfs-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
+global.wait = '_*tunggu sedang di proses...*_'
+global.eror = '_*Server Error*_'
+global.benar = 'Benar ✅\n'
+global.salah = 'Salah ❌\n'
+global.stiker_wait = 'Stiker sedang dibuat'
+global.packname = '2022'
+global.author = '© Chonix'
+
+//=============『 Apikey 』================== //
 global.APIs = { // API Prefix
   // name: 'https://website'
   amel: 'https://melcanz.com',
@@ -23,39 +62,26 @@ global.APIs = { // API Prefix
   pencarikode: 'https://pencarikode.xyz', 
   erdwepe: 'https://erdwpe-api.herokuapp.com',
   lolhuman: 'https://api.lolhuman.xyz',
-  LeysCoder: 'https://leyscoders-api.herokuapp.com'
+  LeysCoder: 'https://leyscoders-api.herokuapp.com',
+  rey: 'https://server-api-rey.herokuapp.com'
 }
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
   'https://melcanz.com': 'elaina',
+  'https://server-api-rey.herokuapp.com': 'apirey',
   'https://api.xteam.xyz': 'd37372311698ed1d',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
   'https://bsbt-api-rest.herokuapp.com': 'benniismael',
   'https://api.zeks.xyz': 'apivinz',
   'https://hardianto-chan.herokuapp.com': 'hardianto',
   'https://pencarikode.xyz': 'pais', 
-  'https://leyscoders-api.herokuapp.com': 'MIMINGANZ',
+  'https://leyscoders-api.herokuapp.com': 'dappakntlll',
   'https://zekais-api.herokuapp.com': 'apikeymu',
-  'https://api.lolhuman.xyz': 'Akuto',
+  'https://api.lolhuman.xyz': 'Deffbotz',
 }
-//cari apikey sendiri ya gaes yak
 
-// Sticker WM
-global.stiker_wait = 'Stiker sedang dibuat'
-global.packname = 'stickerby'
-global.author = `Akuto Bot`
-global.wm = 'Akuto Bot'
-global.watermark = wm
-global.media = 'https://telegra.ph/file/72168c6f1aaa90315c369.jpg'
-global.instagram = 'https://instagram.com/ktgakuma?igshid=YmMyMTA2M2Y='
-global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=crafts-logo&doScale=true&scaleWidth=500&scaleHeight=500&fontsize=100&fillTextType=0&backgroundColor=%23401620&text='
-global.wait = '_*tunggu sedang di proses...*_'
-global.eror = '_*Server Error*_'
-global.benar = 'Benar ✅\n'
-global.salah = 'Salah ❌\n'
-
+//=============『 RPG GAMES 』================== //
 global.multiplier = 69 // The higher, The harder levelup
-
 global.rpg = {
   emoticon(string) {
     string = string.toLowerCase()
@@ -88,6 +114,7 @@ global.rpg = {
   }
 }
 
+//===========『 Jangan Di Ubah 』================ //
 let fs = require('fs')
 let chalk = require('chalk')
 let file = require.resolve(__filename)
