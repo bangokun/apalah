@@ -1,7 +1,7 @@
 let handler = async(m,{text, conn}) => {
 if (!text) throw 'masukkan link nya'
-let p = await require('caliph-api').downloader.tiktok(text)
-let nih = `*TIKTOK DOWNLOADER*
+let json = await require('caliph-api').downloader.tiktok(text)
+let nih = ` *TIKTOK DOWNLOADER BY CHONIX*
 
 ▶ ${json.info[0].playCount} Views
 ❤ ${json.info[0].diggCount} Likes
@@ -11,7 +11,20 @@ let nih = `*TIKTOK DOWNLOADER*
 - *By:* ${json.info[0].authorMeta.nickName} (${json.info[0].authorMeta.name})
 - *Desc:*
 ${txt}
-  `.trim(), m)
+  `
+let buttons = [
+      {buttonId: `.tiktokaudio ${text}`, buttonText: {displayText: 'Get Audio'}, type: 1}
+    ]
+    let buttonMessage = {
+    video: { url: p.nowm },
+    fileName: 'tiktoknowm.mp4',
+    caption: nih,
+    footer: 'Ingin Audio Nya? Cukup Klik Button Di Bawah',
+    buttons: buttons,
+    headerType: 4
+
+    }  
+    conn.sendMessage(m.chat, buttonMessage, { quoted: m })   
 }
 handler.help = ['tiktok'].map(v => v + ' <url>')
 handler.tags = ['downloader']
